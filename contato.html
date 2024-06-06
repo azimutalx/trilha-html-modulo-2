@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia Terapias - Contato</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        /* Adicione estilos personalizados aqui, se necessário */
+        .contact-info {
+            float: left;
+            width: 50%;
+            margin-bottom: 20px;
+        }
+
+        .contact-info h2 {
+            margin-bottom: 10px;
+        }
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        .map-iframe {
+            clear: both;
+            width: 40%;
+            height: 300px;
+            margin-bottom: 20px;
+        }
+
+        .contact-form {
+            float: right;
+            width: 40%;
+            margin-top: 20px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: calc(100% - 22px); /* Leva em consideração o padding de 10px em cada lado e a borda de 1px */
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        .contact-form input[type="submit"],
+        .contact-form input[type="reset"] {
+            width: 47%; /* Distribui os botões igualmente */
+            float: left; /* Coloca os botões lado a lado */
+            margin-right: 2%; /* Espaçamento entre os botões */
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover,
+        .contact-form input[type="reset"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Menu de Navegação -->
+            <ul>
+                <li><a href="index.html">Página Principal</a></li>
+                <li><a href="sobre.html">Sobre a Clínica</a></li>
+                <li><a href="horario.html">Horário de Atendimento</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Imagem de cabeçalho -->
+                <img src="terapeuta5.png" width="100%" alt="Outra Imagem">
+            </div>
+    
+            <div class="content">
+                <!-- Conteúdo -->
+                <h1>Contato</h1>
+
+                <!-- Informações de Contato -->
+                <div class="contact-info">
+                    <h2>Informações de Contato</h2>
+                    <p>Telefone: (xx) xxxx-xxxx</p>
+                    <p>WhatsApp: (xx) xxxxx-xxxx</p>
+                    <p>Endereço: Rua Exemplo, 123 - Bairro - Cidade/Estado - CEP: 12345-678</p>
+                </div>
+
+                <!-- Formulário de Contato -->
+                <div class="contact-form">
+                    <h2>Formulário de Contato</h2>
+                    <form action="#" method="post">
+                        <input type="text" name="nome" placeholder="Nome" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="text" name="assunto" placeholder="Assunto" required>
+                        <textarea name="mensagem" placeholder="Mensagem" rows="4" required></textarea>
+                        <input type="submit" value="Enviar">
+                        <input type="reset" value="Limpar Formulário">
+                    </form>
+                </div>
+
+                <!-- Mapa -->
+                <iframe class="map-iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1234.5678901234567!2d-46.00000000000001!3d-23.00000000000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDE0JzA4LjIiUyA0NsKwMzgnNTYuOCJX!5e0!3m2!1spt-BR!2sbr!4v1623881700770!5m2!1spt-BR!2sbr" frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+    
+            <div class="footer" align="center">
+                <!-- Rodapé -->
+                <p>Entre em contato: Telefone: (xx) xxxx-xxxx | E-mail: contato@clinicamedica.com.br</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
